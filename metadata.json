@@ -1,0 +1,5 @@
+{
+  "name": "Wefic Checklist",
+  "description": "A checklist app for tracking reading progress of the Wefic book series (001-100).",
+  "requestFramePermissions": []
+}
