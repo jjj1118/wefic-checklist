@@ -114,11 +114,13 @@ const Wefic_SERIES_DATA: Record<number, { title: string; author: string; color: 
   99: { title: "추분", author: "신민", color: "#363062", imgUrl: "https://image.yes24.com/goods/160226826/XL" },
   100: { title: "셀붕이의 도", author: "이미상", color: "#F99417", imgUrl: "https://image.yes24.com/goods/160227261/XL" },
 };
+101: { title: "나의 사탄", author: "백은별", color: "#8F2733", imgUrl: "https://image.yes24.com/goods/188916332/XL"
+},
 
 const IMAGE_BASE_URL = "https://your-image-source.com";
 
 const generateWeficData = () => {
-  return Array.from({ length: 100 }, (_, i) => {
+  return Array.from({ length: 101 }, (_, i) => {
     const id = i + 1;
     const info = Wefic_SERIES_DATA[id] || { title: "출간 예정", author: "위즈덤하우스", color: "#f0f0f0" };
     const finalImgUrl = info.imgUrl ? info.imgUrl : `${IMAGE_BASE_URL}/wefic_${id}.jpg`;
@@ -214,7 +216,7 @@ export default function App() {
             <div className="col-span-1 md:col-span-2">
               <div className="flex justify-between items-end mb-2">
                 <span className="text-sm font-semibold text-gray-600">Reading Progress</span>
-                <span className="text-3xl font-black text-gray-900">{stats.readCount}<span className="text-sm font-normal text-gray-400">/100</span></span>
+                <span className="text-3xl font-black text-gray-900">{stats.readCount}<span className="text-sm font-normal text-gray-400">/101</span></span>
               </div>
               <div className="h-3 w-full bg-gray-100 rounded-full overflow-hidden">
                 <motion.div 
