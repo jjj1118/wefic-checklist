@@ -160,7 +160,7 @@ export default function App() {
   // Save to LocalStorage
   useEffect(() => {
     if (books.length > 0) {
-      localStorage.setItem('Wefic-checklist17', JSON.stringify(books));
+      localStorage.setItem('Wefic-checklist18', JSON.stringify(books));
     }
   }, [books]);
 
