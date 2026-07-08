@@ -113,9 +113,9 @@ const Wefic_SERIES_DATA: Record<number, { title: string; author: string; color: 
   98: { title: "찰스 부코스키 타자기", author: "박지영", color: "#C3F8FF", imgUrl: "https://image.yes24.com/goods/160226460/XL" },
   99: { title: "추분", author: "신민", color: "#363062", imgUrl: "https://image.yes24.com/goods/160226826/XL" },
   100: { title: "셀붕이의 도", author: "이미상", color: "#F99417", imgUrl: "https://image.yes24.com/goods/160227261/XL" },
-};
 101: { title: "나의 사탄", author: "백은별", color: "#8F2733", imgUrl: "https://image.yes24.com/goods/188916332/XL"
-},
+}, 
+};
 
 const IMAGE_BASE_URL = "https://your-image-source.com";
 
