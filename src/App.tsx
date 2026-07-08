@@ -149,7 +149,7 @@ export default function App() {
     document.title = "Wefic checklist";
   }, []);
   useEffect(() => {
-    const saved = localStorage.getItem('Wefic-checklist17');
+    const saved = localStorage.getItem('Wefic-checklist18');
     if (saved) {
       setBooks(JSON.parse(saved));
     } else {
